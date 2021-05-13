@@ -4,7 +4,7 @@ const Swal = require('sweetalert2');
 
 app.use(express.static('./static'));
 app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+app.set('view engine', 'js');
 
 
 // middleware
