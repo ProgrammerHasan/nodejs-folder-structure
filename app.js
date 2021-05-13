@@ -8,7 +8,7 @@ app.set('view engine', 'ejs');
 
 
 // middleware
-const adminMiddleware1 = require('./app/Http/Middleware/PageMiddleware');
+const adminMiddleware = require('./app/Http/Middleware/PageMiddleware');
 app.use(adminMiddleware);
 
 // end middleware
