@@ -1,5 +1,5 @@
 const express  = require('express');
-const app = express();
+const app = express();d
 const Swal = require('sweetalert2');
 
 app.use(express.static('./static'));
