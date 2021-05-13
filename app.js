@@ -10,6 +10,7 @@ app.set('view engine', 'ejs');
 // middleware
 const adminMiddleware = require('./app/Http/Middleware/PageMiddleware');
 app.use(adminMiddleware);
+
 // end middleware
 
 // routes
