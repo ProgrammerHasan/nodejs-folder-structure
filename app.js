@@ -1,6 +1,6 @@
 const express  = require('express');
 const app = express();
-const Swal = require('sweetalert2');
+const Swal = require('sweetalert2'd;
 
 app.use(express.static('./static'));
 app.set('views', __dirname + '/views');
