@@ -18,7 +18,6 @@ const router = require('./routes/web');
 app.use('/', router);
 // end routes
 
-
 // server creation
 app.listen(8604, () => {
     console.log('Server is created and listening on port 8604');
